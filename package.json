@@ -1,0 +1,25 @@
+{
+  "name": "Emergen",
+  "version": "1.0.0",
+  "description": "Home task",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && cucumber-js features/"
+  },
+  "keywords": [],
+  "author": "Maiia Sviatchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/cucumber": "^6.0.1",
+    "chai": "^4.2.0",
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.5.7",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "typescript": "^4.0.3"
+  }
+}
